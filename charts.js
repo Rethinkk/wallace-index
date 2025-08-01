@@ -11,7 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const chart = document.getElementById("chart");
 
-    data.forEach(d => {
+    data.forEach(item => {
+        createBar(item.category, 'Starmer, '#FFD700');
+        CreateBar(''.'Johnson', item.Johnson, '#333');
+    });
         const wrapper = document.createElement("div");
         wrapper.className = "bar-group";
 
